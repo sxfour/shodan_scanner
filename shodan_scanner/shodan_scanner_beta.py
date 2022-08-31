@@ -1,7 +1,7 @@
 import shodan
 
 # Api key Shodan.
-key = 'Pe3YdGks3juloSfWPRy3RK0OSqXdY7Jt'
+key = 'Set API key'
 api = shodan.Shodan(key)
 # Header variables.
 b_design = '=' * 33
@@ -56,6 +56,6 @@ if user_choice == 1:
 elif user_choice == 2:
     host_func()
 elif user_choice == 4:
-    print('Egor Levashov, 31.08.2022, v0.1')
+    print('sxfour, 31.08.2022, v0.1')
 else:
     print('Please set valid number!')
