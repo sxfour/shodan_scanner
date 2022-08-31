@@ -47,7 +47,7 @@ def host_func():
 
 
 print(b_design + '\n   Shodan scanner service v0.1\n'
-      + b_design, '\n1. API scan\n2. Host scan\n3. CVE exploit scan\n4. Author this code')
+      + b_design, '\n1. API scan\n2. Host scan\n3. Author this code')
 
 # Basic selection tool or branch,functions are executed if they are equal to the value of the variable
 user_choice = int(input('\nSet mode: '))
@@ -55,7 +55,7 @@ if user_choice == 1:
     api_func()
 elif user_choice == 2:
     host_func()
-elif user_choice == 4:
+elif user_choice == 3:
     print('sxfour, 31.08.2022, v0.1')
 else:
     print('Please set valid number!')
